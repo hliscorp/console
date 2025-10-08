@@ -1,17 +1,21 @@
 {
-    "name": "hlis/console",
+    "name": "lucinda/console",
     "type": "library",
     "description": "Lucinda Console Table: API able to draw tables in UNIX consoles or windows command prompt",
-    "keywords": ["unix console","command prompt", "tables"],
+    "keywords": [
+        "unix console",
+        "command prompt",
+        "tables"
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.1|^8.0"
     },
     "autoload": {
-    	"psr-4": {
-        	"Lucinda\\Console\\": "src/",
-                "Test\\Lucinda\\Console\\": "tests/"
-    	}
+        "psr-4": {
+            "Lucinda\\Console\\": "src/",
+            "Test\\Lucinda\\Console\\": "tests/"
+        }
     },
     "authors": [
         {
